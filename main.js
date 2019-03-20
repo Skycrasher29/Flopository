@@ -50,3 +50,24 @@ fetch(sourceURL)
     cell_4.innerHTML = person.day + ' ' + person.month + ' 2011';
 
   }
+
+
+  window.onload = function() {
+    var buttons = document.getElementsByTagName('button');
+    for (var i = 0, length = buttons.length; i < length; i++) {
+      buttons[i].addEventListener('click', toggleRows, false);
+    }
+
+    function toggleRows() {
+      var tableRows = document.getElementsByTagName('tr');
+      for (var i = 1, length = tableRows.length; i < length; i++) {
+        if (this.value == 'reset') {
+          tableRows[i].style.display = "table-row";
+        } else if (tableRows[i].classList.contains(this.value)) {
+          tableRows[i].style.display = "table-row";
+        } else {
+          tableRows[i].style.display = "none";
+        }
+      }
+    }
+  };

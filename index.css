@@ -3,3 +3,12 @@
   borde-collapse: collapse;
   border: solid;
 }
+#redButton{
+    background-color: pink;
+}
+#greenButton{
+    background-color: lightgreen;
+}
+#blueButton{
+    background-color: lightblue;
+}
