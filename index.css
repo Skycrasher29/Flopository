@@ -1,0 +1,47 @@
+p {
+color: green
+}
+.beautiful{
+  color: white;
+  background-color: black;
+}
+.cool{
+  color: red;
+  background: linear-gradient(#4542f4, #44f441);
+}
+
+.nice,.nice *{
+  border-radius: 5px;
+  border: solid navy 2px;
+  border-spacing: 10px;
+}
+
+.header{
+  background: linear-gradient(#41f4cd, #f45e41);
+}
+
+.things,.things *{
+  border-radius: 5px;
+  border: solid green 2px;
+  border-spacing: 10px;
+}
+
+#ourList {
+  background-color: yellow;
+}
+
+.center{
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+  border-left: groove blue 10px;
+  border-right: outset green 10px;
+  border-top: double yellow 10px;
+  border-bottom: inset red 10px;
+  border-radius: 17px;
+}
+
+.out{
+  border: solid;
+}
