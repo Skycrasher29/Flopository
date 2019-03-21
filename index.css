@@ -3,6 +3,10 @@
   borde-collapse: collapse;
   border: solid;
 }
+.first-style{
+  text-shadow: 2px 2px 5px #3df709;
+  font-style: italic;
+}
 body{
   background: linear-gradient(to top, #d81be5, #237709, #a8c7db)
 }
