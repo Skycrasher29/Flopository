@@ -3,6 +3,12 @@
   borde-collapse: collapse;
   border: solid;
 }
+body{
+  background: linear-gradient(to top, #d81be5, #237709, #a8c7db)
+}
+tr{
+  background: linear-gradient(to right, #c19609, #0bef07)
+}
 #redButton{
     background-color: pink;
 }
