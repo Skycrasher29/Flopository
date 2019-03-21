@@ -26,14 +26,17 @@ tr{
     background-color: pink;
     font-size: 20px;
     border-radius: 50px;
+    width: 250px;
 }
 #greenButton{
     background-color: lightgreen;
       font-size: 20px;
       border-radius: 50px;
+        width: 250px;
 }
 #blueButton{
     background-color: lightblue;
       font-size: 20px;
       border-radius: 50px;
+        width: 250px;
 }
