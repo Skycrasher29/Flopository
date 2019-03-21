@@ -3,9 +3,18 @@
   borde-collapse: collapse;
   border: solid;
 }
+tr{
+  font-size: 120%;
+}
+.table-headings{
+  font-size: 200%;
+}
 .first-style{
-  text-shadow: 2px 2px 5px #3df709;
+  text-shadow: 2px 2px 5px #3df709, 2px 2px 5px #ea10c9;
   font-style: italic;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 20% round;
 }
 body{
   background: linear-gradient(to top, #d81be5, #237709, #a8c7db)
@@ -15,10 +24,16 @@ tr{
 }
 #redButton{
     background-color: pink;
+    font-size: 20px;
+    border-radius: 50px;
 }
 #greenButton{
     background-color: lightgreen;
+      font-size: 20px;
+      border-radius: 50px;
 }
 #blueButton{
     background-color: lightblue;
+      font-size: 20px;
+      border-radius: 50px;
 }
